@@ -14,6 +14,7 @@ const theme = extendTheme({
       },
     },
   },
+ 
 
   textStyles: {
     h1: {
@@ -24,14 +25,24 @@ const theme = extendTheme({
       fontFamily: "'Roboto', sans-serif",
     },
     h2: {
-      fontSize: ["36px", "48px"],
+      fontSize: ["16px", "48px"],
       fontWeight: "semibold",
       lineHeight: "110%",
       letterSpacing: "-1%",
+      paddingLeft:'20px',
+      color: 'white',
+      fontFamily:'arial Nova'
     },
-    p: {
-      margin: "2em",
+    li: {
+      fontFamily:'arial Nova',
+      fontWeight : '100',
+      fontSize : ["12px"]
     },
+    credits: {
+      fontSize:'10px',
+      color:'white',
+      marginBottom:'43px'
+    }
   },
 });
 

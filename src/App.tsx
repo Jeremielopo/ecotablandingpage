@@ -1,7 +1,7 @@
 import Header from "./components/molecules/Header";
 import { Block } from "./components/atoms/Container";
-import Downloadlogo from "./components/molecules/Downloadlogo";
-import { ReactComponent as Handphone } from "./components/atoms/images/hand.svg";
+import ToAppCTA from "./components/molecules/ToAppCTA";
+import PictureCTA from "./components/molecules/PictureCTA";
 import Footer from './components/molecules/Footer'
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
     <>
       <Header />
       <Block />
-      <Downloadlogo />
-      <Handphone />
+      <ToAppCTA />
+      <PictureCTA />
       <Footer/>
     </>
   );
