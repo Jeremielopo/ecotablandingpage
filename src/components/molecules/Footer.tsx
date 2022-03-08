@@ -7,7 +7,8 @@ export default function Footer() {
     <Flex
     bg="#012130"
     flexDir='column'
-    alignItems='center'   
+    alignItems='center' 
+    zIndex='3000'  
     >
      <Center> <Box textStyle="h2" marginTop='63px' marginBottom='13px'>LEGAL</Box> </Center> 
       <UnorderedList textAlign='center' >

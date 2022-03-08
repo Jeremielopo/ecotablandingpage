@@ -11,6 +11,7 @@ const theme = extendTheme({
       "html, body": {
         height: "100%",
         bg: "#F6F9FC",
+        overflowx:'hidden',
       },
     },
   },
@@ -43,6 +44,7 @@ const theme = extendTheme({
       color:'white',
       marginBottom:'43px'
     }
+    
   },
 });
 
