@@ -43,6 +43,9 @@ const theme = extendTheme({
       fontSize:'10px',
       color:'white',
       marginBottom:'43px'
+    },
+    modalstext: {
+      fontFamily:'Montserrat'
     }
     
   },

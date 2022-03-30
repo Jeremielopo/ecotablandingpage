@@ -11,9 +11,9 @@ function Header() {
         align="end"
         height="245px"
       >
-        <Box mr="2em">
+        {/* <Box mr="2em">
           <MenuMobile />
-        </Box>
+        </Box> */}
       </Flex>
 
       <Center>
